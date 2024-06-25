@@ -4,11 +4,8 @@ import { Navbar } from "../../components/Navbar";
 import { DateNavigation } from "../../components/DateNav";
 import { GiantButtons } from "@/app/components/GiantButtons";
 import GetSessions from "@/app/components/GetSessions";
-import { sessionAtom } from "@/app/store/src/atoms/sessionData";
-import { useRecoilValue } from "recoil";
 import { PrismaClient } from "@prisma/client";
 import { useRouter } from 'next/navigation'
-import { useEffect } from "react";
 
 
 export default  function Home(){
@@ -57,7 +54,7 @@ export default  function Home(){
                      </svg>
                     </div>
                     <div className="my-4 font-aktiv-regular text-xl text-custom-grey">
-                    30 min
+                     30 min
                     </div>
                     <div>
                       <div>
